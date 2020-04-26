@@ -1,0 +1,43 @@
+{
+  "title": "I'm Md.Ghulam Azad Ansari",
+  "name": "ghulam_portfolio",
+  "version": "1.0.0",
+  "description": "Md.Ghulam Azad Ansari Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdGhulamAzadAnsari/MdGhulamAzadAnsari.github.io.git"
+  },
+  "keywords": [
+    "Md.Ghulam",
+    "Azad",
+    "Ansari",
+    "Md",
+    "Ghulam",
+    "Azad",
+    "Ansari",
+    "Ghulam",
+    "Azad",
+    "Ansari",
+    "portfolio",
+    "developer",
+    "Ghulam"
+  ],
+  "author": "Md.Ghulam Azad Ansari",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MdGhulamAzadAnsari/MdGhulamAzadAnsari.github.io/issues"
+  },
+  "homepage": "https://github.com/MdGhulamAzadAnsari/MdGhulamAzadAnsari.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
+  }
+}

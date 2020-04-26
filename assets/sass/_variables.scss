@@ -1,0 +1,21 @@
+// Variables
+
+// Body Fonts
+$body-font: "Montserrat", sans-serif;
+
+// White Colors
+$color: #d1d1d1;
+
+$white-base: #fff;
+$white-light-dark: darken($white-base, 4%); // #f5f5f5
+$white-dark-dark: darken($white-base, 5.5%); // #f1f1f1
+$white-light-gray: darken($white-base, 62.3%); // #606060
+
+// Dark Colors
+$gray-base: #000;
+$gray-darker: lighten($gray-base, 17%); // #2B2B2B
+$gray-dark: lighten($gray-base, 12.5%);
+// #202020
+$gray: #303030; // #303030
+$gray-light: lighten($gray-base, 81.4%); // #d0d0d0
+$gray-lighter: lighten($gray-base, 80%); // #ccc
