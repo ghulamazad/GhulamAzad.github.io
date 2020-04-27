@@ -18,16 +18,16 @@
   .about_me_feature_area {
     .about_me_text {
       h3 {
-        font-size: 16px;
+        font-size: 26px;
       }
       h1 {
-        font-size: 36px;
+        font-size: 46px;
       }
       p {
-        font-size: 16px;
+        font-size: 26px;
       }
       .btn-border {
-        font-size: 16px;
+        font-size: 20px;
       }
     }
   }
@@ -68,16 +68,16 @@
   .about_me_feature_area {
     .about_me_text {
       h3 {
-        font-size: 15px;
+        font-size: 26px;
       }
       h1 {
-        font-size: 30px;
+        font-size: 36px;
       }
       p {
-        font-size: 12px;
+        font-size: 16px;
       }
       .btn-border {
-        font-size: 12px;
+        font-size: 16px;
       }
     }
   }
@@ -198,13 +198,13 @@
     width: 100%;
   }
   .about_me_feature_area .about_me_text h1 {
-    font-size: 26px;
+    font-size: 34px;
   }
   .about_me_feature_area .about_me_text h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .about_me_feature_area .about_me_text p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .contact_form_box .name_email input {
     margin-bottom: 30px;
@@ -219,23 +219,6 @@
 
 /*** For 480px or less resolution display devices ***/
 @media only screen and (max-width: 480px) {
-  .about_me_feature_area > .container > .row > * {
-    width: 100%;
-  }
-  .about_me_feature_area > .container > .row {
-    flex-flow: row wrap;
-  }
-  .about_me_feature_area > .container > .row > .col-xs-12.col-sm-6 {
-    order: 2;
-    padding-bottom: 30px;
-    padding-top: 10px;
-  }
-  .about_me_feature_area
-    > .container
-    > .row
-    > .col-xs-12.col-sm-5.col-sm-offset-1 {
-    order: 1;
-  }
   .about_me_feature_area .about_me_text h1 {
     font-size: 30px;
   }
@@ -249,6 +232,28 @@
 
 /*** For 418px or less resolution display devices ***/
 @media only screen and (max-width: 418px) {
+  .skill_area .skill_bar_inner_box .skill_bars {
+    width: 100%;
+  }
+  .project_items .project_tile {
+    width: calc(100% - 20px);
+  }
+  .start_project_area h2 {
+    font-size: 24px;
+  }
+}
+
+/*** For 400px or less resolution display devices ***/
+@media only screen and (max-width: 400px) {
+  .about_me_feature_area .about_me_text h1 {
+    font-size: 26px;
+  }
+  .about_me_feature_area .about_me_text h3 {
+    font-size: 16px;
+  }
+  .about_me_feature_area .about_me_text p {
+    font-size: 14px;
+  }
   .skill_area .skill_bar_inner_box .skill_bars {
     width: 100%;
   }
