@@ -442,6 +442,7 @@ header.site-header.navbar-fixed-top.affix {
     margin: 10px;
     padding: 0;
     width: calc(33.3334% - 20px);
+    border-radius: 4px;
 
     img {
       max-width: 100%;
@@ -646,7 +647,7 @@ header.site-header.navbar-fixed-top.affix {
     @extend .light-gray-color;
     font-weight: 300;
     font-size: 13px;
-    line-height: 3.8;
+    line-height: 1.6;
     text-align: center;
     display: block;
     overflow: hidden;
@@ -701,14 +702,14 @@ header.site-header.navbar-fixed-top.affix {
   border: 1px solid;
   @extend .white-bor-color;
   border-radius: 4px;
-  bottom: 30px;
   color: #202020;
   font-size: 26px;
   height: 40px;
   min-height: 40px;
   min-width: 40px;
   position: fixed;
-  right: 60px;
+  right: 40px;
+  bottom: 26px;
   text-align: center;
   width: 40px;
   cursor: pointer;

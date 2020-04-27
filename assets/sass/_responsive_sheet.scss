@@ -104,6 +104,11 @@
   .contact_info_box {
     word-wrap: break-word;
   }
+
+  .scrollup {
+    bottom: 10px;
+    right: 10px;
+  }
 }
 
 /*** For 767px or less resolution display devices ***/
@@ -139,8 +144,9 @@
 
   .site-header .navbar ul.navbar-nav li.active a,
   .site-header .navbar ul.navbar-nav li:hover a {
-    background-color: $gray-darker;
-    color: $white-base;
+    background-color: $gray-light;
+    color: $gray-dark;
+    border-radius: 4px;
     transition: all 0.5s ease-in-out 0s;
   }
 
@@ -148,7 +154,7 @@
     padding-bottom: 10px;
   }
   .navbar-collapse {
-    background-color: $white-base;
+    background-color: $gray-darker;
   }
   .about_me_feature_area .about_me_text h1 {
     font-size: 28px;

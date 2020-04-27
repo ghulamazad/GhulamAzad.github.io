@@ -397,7 +397,8 @@ header.site-header.navbar-fixed-top.affix {
     overflow: hidden;
     margin: 10px;
     padding: 0;
-    width: calc(33.3334% - 20px); }
+    width: calc(33.3334% - 20px);
+    border-radius: 4px; }
     .project_items .project_tile img {
       max-width: 100%;
       width: 100%;
@@ -537,7 +538,7 @@ header.site-header.navbar-fixed-top.affix {
   .footer_area .copyright_text {
     font-weight: 300;
     font-size: 13px;
-    line-height: 3.8;
+    line-height: 1.6;
     text-align: center;
     display: block;
     overflow: hidden;
@@ -578,14 +579,14 @@ header.site-header.navbar-fixed-top.affix {
   display: none;
   border: 1px solid;
   border-radius: 4px;
-  bottom: 30px;
   color: #202020;
   font-size: 26px;
   height: 40px;
   min-height: 40px;
   min-width: 40px;
   position: fixed;
-  right: 60px;
+  right: 40px;
+  bottom: 26px;
   text-align: center;
   width: 40px;
   cursor: pointer;
@@ -929,7 +930,10 @@ header.site-header.navbar-fixed-top.affix {
     bottom: 20px;
     left: 24px; }
   .contact_info_box {
-    word-wrap: break-word; } }
+    word-wrap: break-word; }
+  .scrollup {
+    bottom: 10px;
+    right: 10px; } }
 
 /*** For 767px or less resolution display devices ***/
 @media only screen and (max-width: 767px) {
@@ -955,13 +959,14 @@ header.site-header.navbar-fixed-top.affix {
     display: none; }
   .site-header .navbar ul.navbar-nav li.active a,
   .site-header .navbar ul.navbar-nav li:hover a {
-    background-color: #2b2b2b;
-    color: #fff;
+    background-color: #d0d0d0;
+    color: #202020;
+    border-radius: 4px;
     transition: all 0.5s ease-in-out 0s; }
   header.site-header.navbar-fixed-top.affix {
     padding-bottom: 10px; }
   .navbar-collapse {
-    background-color: #fff; }
+    background-color: #2b2b2b; }
   .about_me_feature_area .about_me_text h1 {
     font-size: 28px; }
   .about_me_feature_area .about_me_text h3 {
