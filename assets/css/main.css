@@ -402,7 +402,7 @@ header.site-header.navbar-fixed-top.affix {
     .project_items .project_tile img {
       max-width: 100%;
       width: 100%;
-      height: auto; }
+      height: 200px; }
     .project_items .project_tile .project_overlay {
       background: rgba(0, 0, 0, 0.7);
       bottom: 0;
