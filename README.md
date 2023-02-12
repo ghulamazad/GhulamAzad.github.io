@@ -1,1 +1,1 @@
-[My Portfolio](https://mdghulamazadansari.me/)
+[My Portfolio](https://ghulamazad.netlify.app/)
