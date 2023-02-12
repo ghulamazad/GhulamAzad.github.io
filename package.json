@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/MdGhulamAzadAnsari/MdGhulamAzadAnsari.github.io#readme",
   "devDependencies": {
-    "node-sass": "^7.0.0"
+    "node-sass": "^7.0.3"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
